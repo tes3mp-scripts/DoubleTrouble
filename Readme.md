@@ -7,5 +7,6 @@ Requires [DataManager](https://github.com/tes3mp-scripts/DataManager)!
 If you choose to use it, `require` DoubleTrouble after CellReset in `customScripts.lua` for them to interact properly.
 
 You can find the configuration file in `server/data/custom/__config_DoubleTrouble.json`.
-* `copies` how many copies of the same creature you want to have. The default value is `5`.
+* `minimumCopies` minimum amount of copies of the same creature that can spawn. The default value is `3`.
+* `maximumCopies` maximum amount of copies of the same creature that can spawn. The default value is `7`.
 * `creatures` a list of all creatures' refIds that should be duplicated. This is largely arbitrary, feel free to change it.
